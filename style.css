@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+  margin: 0;
+  font-family: "Rubik";
+  font-style: normal;
+}
+
+ul {
+  padding: 0;
+}
+
+.dflex {
+  display: flex;
+}
+
+.sp-bet {
+  justify-content: space-between;
+}
+
+.align-i-center {
+  align-items: center;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #342b2b;
+}
+
+.main-menu-list {
+  width: 534px;
+  list-style: none;
+}
