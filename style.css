@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 body {
   margin: 0;
   font-family: "Rubik";
@@ -7,6 +8,7 @@ body {
 
 ul {
   padding: 0;
+  list-style: none;
 }
 
 .dflex {
@@ -17,8 +19,20 @@ ul {
   justify-content: space-between;
 }
 
+.just-c-center {
+  justify-content: center;
+}
+
 .align-i-center {
   align-items: center;
+}
+.t-align-center {
+  text-align: center;
+}
+
+header {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  height: 80px;
 }
 
 .container {
@@ -28,14 +42,177 @@ ul {
 
 a {
   text-decoration: none;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #342b2b;
 }
 
+h1 {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  color: #342b2b;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #342b2b;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
 .main-menu-list {
-  width: 534px;
-  list-style: none;
+  width: 655px;
+}
+
+.sub-list a {
+  margin-right: 10px;
+}
+
+.lk {
+  width: 243px;
+}
+
+.lk a {
+  box-sizing: border-box;
+  border: 1px solid #1e3daf;
+  border-radius: 4px;
+}
+
+.sign-in {
+  width: 86px;
+  height: 36px;
+  background: #1e3daf;
+  color: white;
+}
+
+.sign-up {
+  width: 150px;
+  height: 36px;
+  background: transparent;
+  color: #1e3daf;
+}
+
+.banner {
+  background: #eef1f2;
+  padding: 100px 0;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #342b2b;
+}
+
+.banner-info-txt p {
+  margin-bottom: 60px;
+}
+
+.banner img {
+  width: 315px;
+  height: 315px;
+}
+
+.image-js {
+  width: 243px;
+  height: 243px;
+}
+
+.sub-info {
+  width: 895px;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.sub-info-i p {
+  margin: 0;
+  margin-top: 4px;
+}
+
+.blue-btn {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  width: 247px;
+  height: 48px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background: #1e3daf;
+  border: none;
+  border-radius: 4px;
+}
+
+.course-image {
+  height: 348px;
+}
+
+.about-course {
+  padding: 100px 0 150px 0;
+}
+
+.course-txt {
+  margin: 0;
+}
+.tools {
+  width: 600px;
+  margin: 25px 0 0 0;
+}
+
+.tools-i {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tools-i p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #342b2b;
+  opacity: 0.6;
+
+  margin: 10px 0 0 0;
+}
+
+.tgr {
+  position: relative;
+  width: 565px;
+  height: 398px;
+
+  box-shadow: 0px 32px 42px rgba(30, 61, 175, 0.04);
+  border-radius: 4px;
+  background: #eef1f2 url(/images/white-dots.svg) no-repeat 40px 5px;
+}
+
+.tgr-txt {
+  background-color: white;
+  margin-top: 18px;
+  padding-top: 60px;
+  padding-left: 40px;
+  height: 320px;
+}
+
+.tgr-txt ul {
+  padding-left: 20px;
+  margin: 0;
+  list-style: url(/images/marker.svg);
+}
+
+.tgr-txt p {
+  padding-left: 17px;
+  margin: 0;
+  margin-bottom: 24px;
+  height: 20px;
 }

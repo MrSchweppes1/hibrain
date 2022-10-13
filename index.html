@@ -4,36 +4,180 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="just-c-center dflex">
       <div class="container dflex sp-bet align-i-center">
         <img src="/images/logo.svg" alt="" class="logo" />
         <nav class="main-menu">
           <ul class="main-menu-list dflex sp-bet">
             <li><a href="">Курсы</a></li>
             <li><a href="">Карьера</a></li>
-            <li class="dflex">
-                <a href="">Сотрудничество</a>
-                <img src="/images/arrow-down.svg" alt="">
+            <li class="dflex sub-list">
+              <a href="">Сотрудничество</a>
+              <img src="/images/arrow-down.svg" alt="" />
             </li>
             <li><a href="">Блог</a></li>
             <li><a href="">О HiBrain</a></li>
           </ul>
         </nav>
-        <div class="lk">
-          <button>Регистрация</button>
-          <button>Вход</button>
+        <div class="lk dflex sp-bet">
+          <a href="" class="sign-up dflex align-i-center just-c-center"
+            >Регистрация</a
+          >
+          <a href="" class="sign-in dflex align-i-center just-c-center">Вход</a>
         </div>
       </div>
     </header>
+
+    <section class="banner dflex">
+      <div class="container">
+        <div class="banner-info dflex sp-bet">
+          <div class="banner-info-txt">
+            <h1>Fullstack-разработка<br />на JavaScript</h1>
+            <p>
+              Пройдя курс Fullstack-разработки на JavaScript ты научишься<br />
+              использовать профессиональные инструменты front-end и back-end<br />
+              разработки React и Node.js, СУБД MySQL и MongoDB.
+            </p>
+          </div>
+          <div class="image-js just-c-center dflex">
+            <img src="/images/js-logo.svg" alt="" />
+          </div>
+        </div>
+        <ul class="sub-info dflex sp-bet">
+          <li>
+            <div class="sub-info-i">
+              <strong>Площадка:</strong>
+              <p>ННГУ</p>
+            </div>
+          </li>
+          <li>
+            <div class="sub-info-i">
+              <strong>Продолжительность:</strong>
+              <p>4 месяца</p>
+            </div>
+          </li>
+          <li>
+            <div class="sub-info-i">
+              <strong>Дата:</strong>
+              <p>29 февраля 2020</p>
+            </div>
+          </li>
+          <li>
+            <div class="sub-info-i">
+              <strong>Стоимость:</strong>
+              <p>26 000 ₽</p>
+            </div>
+          </li>
+        </ul>
+        <button class="blue-btn">Записаться</button>
+      </div>
+    </section>
+
+    <section class="about-course">
+      <div class="container">
+        <h2>О курсе</h2>
+
+        <div class="course-info dflex sp-bet">
+          <div class="about-course-txt">
+            <p class="course-txt">
+              На курсе Fullstack-разработки на JavaScript изучаем
+              профессиональные инструменты<br />
+              front-end и back-end разработки React и Node.js, СУБД MySQL и
+              MongoDB. Требования к<br />
+              слушателям на входе: знания html, css, основ программирования на
+              javascript. <br />
+              <br />
+
+              На курсе преподают эксперты из IT-компаний Lad. В конце обучения
+              слушатели курса<br />
+              защищают итоговые проекты. Лучшие получают приглашение поступить
+              на<br />
+              стажировку, в интернатуру или в штат IT-компании. <br />
+              <br />
+              Мы изучаем:
+            </p>
+            <ul class="tools dflex sp-bet">
+              <li>
+                <div class="tools-i">
+                  <img src="/images/react.svg" alt="" />
+                  <p>React</p>
+                </div>
+              </li>
+              <li>
+                <div class="tools-i">
+                  <img src="/images/react-redux.svg" alt="" />
+                  <p>React Redux</p>
+                </div>
+              </li>
+              <li>
+                <div class="tools-i">
+                  <img src="/images/node-js.svg" alt="" />
+                  <p>Node JS</p>
+                </div>
+              </li>
+              <li>
+                <div class="tools-i">
+                  <img src="/images/git.svg" alt="" />
+                  <p>Git</p>
+                </div>
+              </li>
+              <li>
+                <div class="tools-i">
+                  <img src="/images/mongo-db.svg" alt="" />
+                  <p>Mongo DB</p>
+                </div>
+              </li>
+              <li>
+                <div class="tools-i">
+                  <img src="/images/mysql.svg" alt="" />
+                  <p>MySQL</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <img src="/images/about-course-image.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="target-group-and-requirements">
+      <div class="container dflex sp-bet">
+        <div class="tgr">
+          <div class="tgr-txt">
+            <h2>Кому подойдет этот курс</h2>
+            <ul>
+              <li><p>Начинающим JavaScript-разработчикам</p></li>
+              <li><p>Начинающим разработчикам на React</p></li>
+              <li><p>Начинающим Backend-разработчикам</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="tgr">
+          <div class="tgr-txt">
+            <h2>Требования к курсу</h2>
+            <ul>
+              <li><p>Знания HTML/CSS</p></li>
+              <li><p>Базовые знания JavaScript</p></li>
+              <li><p>Знания MySQL (будет плюсом)</p></li>
+              <li><p>Базовые навыки работы с Git (будет плюсом)</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experts" style="height: 100px;"> 
+
+    </section>
+
+    <section class="career"></section>
+
     <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+
     <footer></footer>
   </body>
 </html>
