@@ -40,6 +40,10 @@ header {
   margin: auto;
 }
 
+.background-grey {
+  background: #eef1f2;
+}
+
 a {
   text-decoration: none;
   font-weight: 400;
@@ -68,6 +72,18 @@ h2 {
   color: #342b2b;
   margin: 0;
   margin-bottom: 60px;
+}
+
+h3 {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+
+  color: #342b2b;
+
+  margin: 12px 0;
 }
 
 .main-menu-list {
@@ -103,7 +119,6 @@ h2 {
 }
 
 .banner {
-  background: #eef1f2;
   padding: 100px 0;
 }
 
@@ -215,4 +230,145 @@ p {
   margin: 0;
   margin-bottom: 24px;
   height: 20px;
+}
+
+.container-experts {
+  padding: 150px 0;
+  border-bottom: 1px solid rgba(52, 43, 43, 0.2);
+}
+
+.experts-list {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.experts-list-i {
+  width: 250px;
+}
+
+.experts-list-i p {
+  font-weight: 300;
+  font-size: 14px;
+  margin: 12px 0;
+}
+
+.underline {
+  width: 101px;
+  height: 4px;
+  background: #1e3daf;
+}
+
+.career .container-experts {
+  border: none;
+}
+
+.partner-list {
+  margin-top: 40px;
+}
+
+.course-program .container-experts {
+  position: relative;
+  border: none;
+  padding-bottom: 300px;
+}
+
+.programs-i {
+  position: relative;
+  width: 820px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 24px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.head {
+  width: 100%;
+}
+.img-btn {
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.programs-i p {
+  visibility: hidden;
+  position: absolute;
+  top: 60px;
+  margin: 0;
+}
+
+.programs-i h3 {
+  margin: 0;
+}
+
+.programs-i:active p {
+  visibility: visible;
+}
+
+.programs-i:active {
+  height: 130px;
+}
+
+.programs-i:active img {
+  transform: rotate(45deg);
+  transition: 0.4s;
+}
+
+.course-program-img {
+  position: absolute;
+  top: 150px;
+  left: 765px;
+}
+
+.blue-block {
+  position: relative;
+  height: 300px;
+  background-color: #1e3daf;
+}
+
+.subscribe-course{
+  position: absolute;
+  height: 216px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 40px 0 40px 40px;
+  bottom: 147px;
+}
+
+.subscribe{
+  padding-right: 108px;
+  border-right: 1px solid rgba(52, 43, 43, 0.2);
+}
+
+.subscribe-course h2{
+  margin-bottom: 32px;
+}
+
+.place{
+  margin-bottom: 40px;
+}
+
+.place-item{
+  margin-bottom: 16px;
+}
+
+.place-item p{
+  margin: 0;
+}
+
+.place-item img{
+  opacity: 0.2;
+  margin-right: 15px;
+}
+
+.nngu{
+  width: 545px;
+}
+
+.nngu-logo{
+  width: 146px;
 }
