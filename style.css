@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
 body {
   margin: 0;
   font-family: "Rubik";
@@ -26,14 +27,24 @@ ul {
 .align-i-center {
   align-items: center;
 }
+
 .t-align-center {
   text-align: center;
+}
+
+.pos-rel{
+  position: relative;
+}
+
+.pos-abs{
+  position: absolute;
 }
 
 header {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
   height: 80px;
 }
+
 
 .container {
   width: 1170px;
@@ -90,8 +101,39 @@ h3 {
   width: 655px;
 }
 
-.sub-list a {
+.pre-sub-list{
+  position: relative;
+}
+
+.pre-sub-list a {
   margin-right: 10px;
+}
+
+.pre-sub-list img{
+  transform: rotate(180deg);
+}
+
+.pre-sub-list:hover img{
+  transform: rotate(360deg);
+  transition: 0.6s;
+}
+
+.pre-sub-list:hover .sub-list{
+ visibility: visible;
+}
+
+.sub-list{
+  width: 150px;
+  flex-direction: column;
+  visibility: hidden;
+  position: absolute;
+  top: 25px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sub-list a{
+  padding: 15px;
 }
 
 .lk {
@@ -181,6 +223,7 @@ p {
 .course-txt {
   margin: 0;
 }
+
 .tools {
   width: 600px;
   margin: 25px 0 0 0;
@@ -205,18 +248,18 @@ p {
   position: relative;
   width: 565px;
   height: 398px;
-
-  box-shadow: 0px 32px 42px rgba(30, 61, 175, 0.04);
   border-radius: 4px;
   background: #eef1f2 url(/images/white-dots.svg) no-repeat 40px 5px;
 }
 
 .tgr-txt {
-  background-color: white;
+  background-color: #FFFFFF;
   margin-top: 18px;
   padding-top: 60px;
   padding-left: 40px;
   height: 320px;
+  box-shadow: 0px 32px 42px rgba(30, 61, 175, 0.15);
+  border-radius: 4px;
 }
 
 .tgr-txt ul {
@@ -286,6 +329,7 @@ p {
 .head {
   width: 100%;
 }
+
 .img-btn {
   background: #ffffff;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
@@ -329,7 +373,7 @@ p {
   background-color: #1e3daf;
 }
 
-.subscribe-course{
+.subscribe-course {
   position: absolute;
   height: 216px;
   background: #ffffff;
@@ -339,36 +383,83 @@ p {
   bottom: 147px;
 }
 
-.subscribe{
-  padding-right: 108px;
+.subscribe {
+  padding-right: 92px;
   border-right: 1px solid rgba(52, 43, 43, 0.2);
 }
 
-.subscribe-course h2{
+.subscribe-course h2 {
   margin-bottom: 32px;
 }
 
-.place{
+.place {
   margin-bottom: 40px;
 }
 
-.place-item{
+.place-item {
   margin-bottom: 16px;
 }
 
-.place-item p{
+.place-item p {
   margin: 0;
 }
 
-.place-item img{
+.place-item img {
   opacity: 0.2;
   margin-right: 15px;
 }
 
-.nngu{
-  width: 545px;
+.nngu {
+  width: 585px;
 }
 
-.nngu-logo{
+.nngu-logo {
   width: 146px;
+}
+
+footer {
+  background: #342b2b;
+}
+
+.footer-container{
+  padding: 47px 0 52px;
+}
+
+.f-top-list-l{
+  width: 425px;
+}
+
+.f-top-list-l img{
+  width: 93px;
+  height: fit-content;
+  padding-right: 43px;
+  border-right: 1px solid #FFFFFF;
+}
+
+.f-top-list-r{
+  width: 160px;
+  margin: 0;
+}
+
+.footer-middle-list {
+margin: 64px 0 76px;
+}
+
+.footer-middle-list a{
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+footer p{
+  font-weight: 300;
+  font-size: 12px;
+
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.txt-underline{
+  text-decoration: underline;
 }
